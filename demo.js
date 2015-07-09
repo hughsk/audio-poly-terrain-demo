@@ -34,7 +34,7 @@ badge({
     analyzer = analyze(audio)
     analyzer.waveform(wave)
   })
-
+  audio.crossOrigin = 'Anonymous'
   audio.src = src
   document.body.appendChild(div)
 })
